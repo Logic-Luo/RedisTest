@@ -9,8 +9,8 @@ import io.lettuce.core.api.sync.RedisCommands;
  */
 public class Main extends AbstractLettuce {
     @Override
-    public void test(RedisCommands redisCommands) {
-        redisCommands.set("logic", "logic");
+    protected void test(RedisCommands redisCommands) {
+        redisCommands.set("msdc", "logic");
     }
 
     public static void main(String[] args) {

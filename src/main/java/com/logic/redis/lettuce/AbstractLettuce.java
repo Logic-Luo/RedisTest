@@ -18,7 +18,7 @@ public abstract class AbstractLettuce {
      *
      * @param redisCommands RedisCommands
      */
-    public abstract void test(RedisCommands redisCommands);
+    protected abstract void test(RedisCommands redisCommands);
 
 
 
